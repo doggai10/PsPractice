@@ -1,3 +1,5 @@
+package algorithm.greedy;
+
 import java.util.Scanner;
 import java.util.Arrays;
 public class test2{
@@ -35,8 +37,7 @@ public class test2{
 				M-=1;
 			}
 			System.out.println(ans);
-		
-
+			sc.close();
 	}
 
 

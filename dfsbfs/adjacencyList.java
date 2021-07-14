@@ -1,29 +1,26 @@
+package algorithm.dfsbfs;
 import java.util.ArrayList;
-
-class Node{
-    private int index;
-    private int distance;
-
-
-    public Node(int index, int distance){
-        this.index=index;
-        this.distance=distance;
-    }
-
-    public void show(){
-        System.out.print("("+this.index+","+this.distance+")");
-    }
-
-}
-
-
-
 
 public class adjacencyList {
 
 
     public static ArrayList<ArrayList<Node>> graph = new ArrayList<ArrayList<Node>>();
-
+    
+    public static class Node{
+        private int index;
+        private int distance;
+    
+    
+        public Node(int index, int distance){
+            this.index=index;
+            this.distance=distance;
+        }
+    
+        public void show(){
+            System.out.print("("+this.index+","+this.distance+")");
+        }
+    
+    }
     public static void main(String[] args) {
 
         for(int i=0; i<3;i++){

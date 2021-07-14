@@ -1,17 +1,6 @@
+package algorithm.dfsbfs;
+
 import java.util.*;
-
-
-class Node{
-    int x;
-    int y;
-    int depth;
-
-    Node(int _x, int _y, int _depth){
-        this.x=_x;
-        this.y=_y;
-        this.depth=_depth;
-    }
-}
 
 public class bfsTest {
 
@@ -21,6 +10,18 @@ public class bfsTest {
     public static boolean[][] visited;
     public static int[] dirX= {0, 1,-1, 0} ;
     public static int[] dirY= {1, 0, 0,-1};
+
+    public static class Node{
+        int x;
+        int y;
+        int depth;
+    
+        Node(int _x, int _y, int _depth){
+            this.x=_x;
+            this.y=_y;
+            this.depth=_depth;
+        }
+    }
     public static void bfs(int x, int y){
         Queue<Node> queue = new LinkedList<>();
         queue.add(new Node(x,y,1));

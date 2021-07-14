@@ -1,3 +1,5 @@
+package algorithm.dfsbfs;
+
 public class adjacencyMatrix {
 
     public static final int INF = 999999999;

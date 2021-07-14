@@ -1,3 +1,5 @@
+package algorithm.simulation;
+
 import java.util.Scanner;
 public class test1_2{
 
@@ -34,6 +36,7 @@ public class test1_2{
 		}
 	
 		System.out.println(x+" "+y);
+		sc.close();
 	}
 
 

@@ -1,3 +1,5 @@
+package algorithm.greedy;
+
 import java.util.Scanner;
 
 public class test4{
@@ -20,6 +22,7 @@ public class test4{
 			count++;
 		}
 		System.out.println(count);
+		sc.close();
 	}
 
 

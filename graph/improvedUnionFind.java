@@ -1,3 +1,5 @@
+package algorithm.graph;
+
 import java.util.Scanner;
 
 public class improvedUnionFind {

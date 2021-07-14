@@ -1,4 +1,5 @@
-import java.util.ArrayList;
+package algorithm.greedy;
+
 import java.util.Scanner;
 
 public class greedy2 {

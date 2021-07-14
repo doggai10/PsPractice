@@ -1,3 +1,5 @@
+package algorithm.simulation;
+
 import java.util.Scanner;
 
 
@@ -28,7 +30,7 @@ public class test1{
 		}
 
 		System.out.println(posX+" "+posY);
-
+		sc.close();
 	}
 
 

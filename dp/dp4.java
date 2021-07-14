@@ -1,3 +1,5 @@
+package algorithm.dp;
+
 import java.util.Scanner;
 
 public class dp4 {

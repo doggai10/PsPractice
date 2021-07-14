@@ -1,3 +1,5 @@
+package algorithm.simulation;
+
 import java.util.Scanner;
 
 
@@ -53,7 +55,7 @@ public class test4{
 			}
 		}
 		System.out.println(count);
-
+		sc.close();
 	}
 
 

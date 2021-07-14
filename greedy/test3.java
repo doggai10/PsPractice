@@ -1,3 +1,5 @@
+package algorithm.greedy;
+
 import java.util.Scanner;
 
 public class test3{
@@ -22,6 +24,7 @@ public class test3{
 			result=(result<temp)?temp:result;
 		}
 		System.out.println(result);
+		sc.close();
 	}
 
 }

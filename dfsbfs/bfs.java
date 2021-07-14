@@ -1,3 +1,4 @@
+package algorithm.dfsbfs;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
@@ -7,7 +8,7 @@ public class bfs {
     public static boolean[] visited = new boolean[9];
     public static ArrayList<ArrayList<Integer>> graph = new ArrayList<ArrayList<Integer>>();
 
-    public static void bfs(int start){
+    public static void bfsFunc(int start){
         Queue<Integer> queue = new LinkedList<>();
         queue.offer(start);
         visited[start]=true;
@@ -56,7 +57,7 @@ public class bfs {
         graph.get(8).add(1);
         graph.get(8).add(7);
 
-        bfs(1);
+        bfsFunc(1);
     }
 
 }

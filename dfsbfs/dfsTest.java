@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+package algorithm.dfsbfs;
 import java.util.Scanner;
 
 public class dfsTest {

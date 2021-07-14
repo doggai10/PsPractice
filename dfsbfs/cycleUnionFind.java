@@ -1,5 +1,4 @@
-package algorithm.graph;
-
+package algorithm.dfsbfs;
 import java.util.Scanner;
 
 public class cycleUnionFind {

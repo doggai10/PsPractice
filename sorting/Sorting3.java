@@ -1,3 +1,5 @@
+package algorithm.sorting;
+
 import java.util.*;
 
 public class Sorting3 {
