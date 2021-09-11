@@ -16,7 +16,5 @@
 
 8. sorting
 
-9. stack, else
-
-10. else
+9. else
 
